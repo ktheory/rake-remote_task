@@ -20,7 +20,6 @@ s.rubygems_version = %q{1.8.7}
 s.summary = %q{Vlad the Deployer's sexy brainchild is rake-remote_task, extending Rake with remote task goodness.}
 s.test_files = [%q{test/test_rake_remote_task.rb}]
 
-s.add_dependency(%q<rake>, ["~> 0.8"])
-s.add_dependency(%q<open4>, ["~> 0.9.0"])
-s.add_development_dependency(%q<hoe>, ["~> 2.12"])
+s.add_dependency "rake", "~> 0.8"
+s.add_dependency "open4", "> 0.9.0"
 end
